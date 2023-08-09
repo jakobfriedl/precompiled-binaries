@@ -12,7 +12,8 @@ Collection of useful pre-compiled .NET binaries for pentesting Active Directory 
 | [SharpGPOAbuse](https://github.com/FSecureLABS/SharpGPOAbuse) | Group Policy exploitation and abuse | 
 | [Whisker](https://github.com/eladshamir/Whisker) |  Shadow Credential attacks |
 | [Certify](https://github.com/GhostPack/Certify) |  Certificate abuse and enumeration | 
-| [Seatbelt](https://github.com/GhostPack/Seatbelt) | Windows host enumeration | 
+| [Seatbelt](https://github.com/GhostPack/Seatbelt) | Windows host enumeration |
+| [PassTheCert](https://github.com/AlmondOffSec/PassTheCert) | Certificate abuse |
 
 ## Disclaimer
 
