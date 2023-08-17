@@ -14,6 +14,8 @@ Collection of useful pre-compiled .NET binaries for pentesting Active Directory 
 | [Certify](https://github.com/GhostPack/Certify) |  Certificate abuse and enumeration | 
 | [Seatbelt](https://github.com/GhostPack/Seatbelt) | Windows host enumeration |
 | [PassTheCert](https://github.com/AlmondOffSec/PassTheCert) | Certificate abuse |
+| [SharpDPAPI](https://github.com/GhostPack/SharpDPAPI) | Credential gathering |
+| [SharpChrome](https://github.com/GhostPack/SharpDPAPI) | Credential gathering (specifically from Chrome) | 
 
 ## Disclaimer
 
