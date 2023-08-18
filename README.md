@@ -16,7 +16,9 @@ Collection of useful pre-compiled .NET binaries for pentesting Active Directory 
 | [PassTheCert](https://github.com/AlmondOffSec/PassTheCert) | Certificate abuse |
 | [SharpDPAPI](https://github.com/GhostPack/SharpDPAPI) | Credential gathering |
 | [SharpChrome](https://github.com/GhostPack/SharpDPAPI) | Credential gathering (specifically from Chrome) | 
+| [BackupOperatorToDA](https://github.com/mpgn/BackupOperatorToDA) | Dump SAM, SYSTEM and SECURITY from remote machine using Backup Operator group privileges |
 
 ## Disclaimer
 
 ONLY use for ethical purposes and on targets that you are permitted to attack!
+W
