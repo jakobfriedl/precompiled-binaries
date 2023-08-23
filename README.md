@@ -28,7 +28,7 @@ ONLY use for ethical purposes and on targets that you are permitted to attack!
 | [SharpHound](https://github.com/BloodHoundAD/SharpHound) | Active directory enumeration and visualization | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/SharpHound.exe |
 | [Seatbelt](https://github.com/GhostPack/Seatbelt) | Windows host enumeration | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/Seatbelt.exe |
 | [SharpUp](https://github.com/GhostPack/SharpUp) | Privilege Escalation Checks | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/SharpUp.exe |
-| [winPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS) | WIndows host enumeration | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/winPEAS.exe | 
+| [winPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS) | Windows host enumeration | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/winPEAS.exe | 
 
 ### Active Directory Exploitation
 
@@ -44,6 +44,10 @@ ONLY use for ethical purposes and on targets that you are permitted to attack!
 | [mimikatz](https://github.com/ParrotSec/mimikatz) | Credential dumping and ticket attacks | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Credentials/mimikatz.exe | 
 | [SharpDPAPI](https://github.com/GhostPack/SharpDPAPI) | Credential gathering | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Credentials/SharpDPAPI.exe |
 | [SharpChrome](https://github.com/GhostPack/SharpDPAPI) | Credential gathering (specifically from Chrome) | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Credentials/SharpChrome.exe |
+| [SharpKatz](https://github.com/b4rtik/SharpKatz) | C# Port of mimikatz | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Credentials/SharpKatz.exe |
+| [SharpLAPS](https://github.com/swisskyrepo/SharpLAPS) | Dump LAPS passwords | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Credentials/SharpLAPS.exe | 
+| [BetterSafetyKatz](https://github.com/Flangvik/BetterSafetyKatz) | Run latest mimikatz in memory | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Credentials/BetterSafetyKatz.exe
+
 
 ### Local Privilege Escalation
 
