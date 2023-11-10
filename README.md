@@ -57,7 +57,7 @@ ONLY use for ethical purposes and on targets that you are permitted to attack!
 | [NetworkServiceExploit](https://github.com/decoder-it/NetworkServiceExploit) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/TokenImpersonation/NetworkServiceExploit.exe |
 | [GodPotato](https://github.com/BeichenDream/GodPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/TokenImpersonation/GodPotato.exe |
 | [JuicyPotato](https://github.com/ohpe/juicy-potato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/TokenImpersonation/JuicyPotato.exe |
-
+| [SharpEfsPotato](https://github.com/bugch3ck/SharpEfsPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/TokenImpersonation/SharpEfsPotato.exe |
 
 ### GPO Abuse
 
