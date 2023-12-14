@@ -32,6 +32,7 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 || [SharpUp](https://github.com/GhostPack/SharpUp) | Privilege Escalation Checks | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/SharpUp.exe |
 || [winPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS) | Windows host enumeration | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/winPEAS.exe | 
 || [SharpView](https://github.com/tevora-threat/SharpView) | C# Port of SharpView.ps1 | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/SharpView.exe |
+|★| [NoPowerShell](https://github.com/bitsadmin/nopowershell) | Execute PowerShell cmdlets in memory | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/NoPowerShell.exe
 
 ### Active Directory Exploitation
 
