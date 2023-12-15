@@ -1,6 +1,6 @@
-# Precompiled Binaries
+# Precompiled Binaries & AD toolset
 
-Collection of useful pre-compiled binaries for enumerating and exploiting Active Directory environments or standalone Windows hosts. All binaries listed in this repository have either been downloaded from the official release page or compiled from the official source code using Visual Studio.
+Collection of useful tools, scripts and pre-compiled binaries for enumerating and exploiting Active Directory environments or standalone Windows hosts. All binaries listed in this repository have either been downloaded from the official release page or compiled from the official source code using Visual Studio.
 
 ## Table of Contents
 - [Precompiled Binaries](#precompiled-binaries)
