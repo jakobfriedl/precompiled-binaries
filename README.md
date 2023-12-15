@@ -13,6 +13,7 @@ Collection of useful tools, scripts and pre-compiled binaries for enumerating an
     - [Local Privilege Escalation](#local-privilege-escalation)
     - [GPO Abuse](#gpo-abuse)
     - [Certificate Abuse](#certificate-abuse)
+    - [Scripts](#scripts)
 
 
 
@@ -31,7 +32,7 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 || [Seatbelt](https://github.com/GhostPack/Seatbelt) | Windows host enumeration | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/Seatbelt.exe |
 || [SharpUp](https://github.com/GhostPack/SharpUp) | Privilege Escalation Checks | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/SharpUp.exe |
 || [winPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS) | Windows host enumeration | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/winPEAS.exe | 
-|| [SharpView](https://github.com/tevora-threat/SharpView) | C# Port of SharpView.ps1 | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/SharpView.exe |
+|| [SharpView](https://github.com/tevora-threat/SharpView) | C# Port of PowerView.ps1 | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/SharpView.exe |
 |★| [NoPowerShell](https://github.com/bitsadmin/nopowershell) | Execute PowerShell cmdlets in memory | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/NoPowerShell.exe
 
 ### Active Directory Exploitation
@@ -53,7 +54,7 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 || [SharpKatz](https://github.com/b4rtik/SharpKatz) | C# Port of mimikatz | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Credentials/SharpKatz.exe |
 || [SharpLAPS](https://github.com/swisskyrepo/SharpLAPS) | Dump LAPS passwords | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Credentials/SharpLAPS.exe | 
 || [BetterSafetyKatz](https://github.com/Flangvik/BetterSafetyKatz) | Run latest mimikatz in memory | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Credentials/BetterSafetyKatz.exe |
-|| [GMSAPasswordReder](https://github.com/rvazarkar/GMSAPasswordReader) | Dump GMSA passwords | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Credentials/GMSAPasswordReader.exe | 
+|| [GMSAPasswordReader](https://github.com/rvazarkar/GMSAPasswordReader) | Dump GMSA passwords | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Credentials/GMSAPasswordReader.exe | 
 
 
 ### Local Privilege Escalation
@@ -80,3 +81,12 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 || [Certify](https://github.com/GhostPack/Certify) |  Certificate abuse and enumeration | https://github.com/jakobfriedl/precompiled-binaries/raw/main/CertificateAbuse/Certify.exe |
 || [PassTheCert](https://github.com/AlmondOffSec/PassTheCert) | Certificate abuse | https://github.com/jakobfriedl/precompiled-binaries/raw/main/CertificateAbuse/PassTheCert.exe |
 || [ForgeCert](https://github.com/GhostPack/ForgeCert) | Certificate forging | https://github.com/jakobfriedl/precompiled-binaries/raw/main/CertificateAbuse/ForgeCert.exe |
+
+### Scripts
+|| Name | Description | Download | 
+|---| --- | --- | --- |
+|★| [PowerView](https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon) | Enumeration |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/PowerView.ps1 |
+|★| [Powermad](https://github.com/Kevin-Robertson/Powermad) | MachineAccountQuota and DNS Exploitation |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/Powermad.ps1 |
+|| [Inveigh](https://github.com/Kevin-Robertson/Inveigh) | MitM Attacks & Spoofing |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/Inveigh.ps1 |
+|| [PowerUp](https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) | Windows Privilege Escalation |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/PowerUp.ps1 |
+|| [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL) | SQL Server Enumeration and Exploitation |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/PowerUpSQL.ps1 |
