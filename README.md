@@ -1,4 +1,4 @@
-# Precompiled Binaries & AD toolset
+# Precompiled Binaries & AD Toolset
 
 Collection of useful tools, scripts and pre-compiled binaries for enumerating and exploiting Active Directory environments or standalone Windows hosts. All binaries listed in this repository have either been downloaded from the official release page or compiled from the official source code using Visual Studio.
 
@@ -44,7 +44,6 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 | | [ADFSDump](https://github.com/mandiant/ADFSDump) | Dump information from ADFS to be used with ADFSpoof | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/ADFSDump.exe | 
 |★| [SharpSCCM](https://github.com/Mayyhem/SharpSCCM) | Interaction with SCCM for lateral movement | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SharpSCCM.exe
 || [SpoolSample](https://github.com/leechristensen/SpoolSample) | Coerce Authentication for Unconstrained Delegation | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SpoolSample.exe
-
 
 ### Credential Gathering
 
