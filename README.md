@@ -83,6 +83,11 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 || [PassTheCert](https://github.com/AlmondOffSec/PassTheCert) | Certificate abuse | https://github.com/jakobfriedl/precompiled-binaries/raw/main/CertificateAbuse/PassTheCert.exe |
 || [ForgeCert](https://github.com/GhostPack/ForgeCert) | Certificate forging | https://github.com/jakobfriedl/precompiled-binaries/raw/main/CertificateAbuse/ForgeCert.exe |
 
+### Azure AD Abuse
+|| Name | Description | Download | 
+|---| --- | --- | --- |
+|| [ADSyncDecrypt](https://github.com/dirkjanm/adconnectdump) | Extract and decrypt Azure AD credentials | https://github.com/jakobfriedl/precompiled-binaries/raw/main/AzureAD/ADSyncDecrypt.exe |
+
 ### Scripts
 || Name | Description | Download | 
 |---| --- | --- | --- |
