@@ -42,7 +42,9 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 |★| [Rubeus](https://github.com/GhostPack/Rubeus) | Kerberos ticket attacks and abuse | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Rubeus.exe |
 | | [Whisker](https://github.com/eladshamir/Whisker) |  Shadow Credential attacks | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/Whisker.exe |
 | | [ADFSDump](https://github.com/mandiant/ADFSDump) | Dump information from ADFS to be used with ADFSpoof | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/ADFSDump.exe | 
-| | [SharpSCCM](https://github.com/Mayyhem/SharpSCCM) | Interaction with SCCM for lateral movement | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SharpSCCM.exe
+|★| [SharpSCCM](https://github.com/Mayyhem/SharpSCCM) | Interaction with SCCM for lateral movement | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SharpSCCM.exe
+|| [SpoolSample](https://github.com/leechristensen/SpoolSample) | Coerce Authentication for Unconstrained Delegation | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SpoolSample.exe
+
 
 ### Credential Gathering
 
@@ -61,11 +63,11 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 
 || Name | Description | Download |
 |---| --- | --- | --- |
-|| [PrintSpoofer](https://github.com/itm4n/PrintSpoofer) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/TokenImpersonation/PrintSpoofer64.exe |
-|| [NetworkServiceExploit](https://github.com/decoder-it/NetworkServiceExploit) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/TokenImpersonation/NetworkServiceExploit.exe |
-|| [GodPotato](https://github.com/BeichenDream/GodPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/TokenImpersonation/GodPotato.exe |
-|| [JuicyPotato](https://github.com/ohpe/juicy-potato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/TokenImpersonation/JuicyPotato.exe |
-|★| [SharpEfsPotato](https://github.com/bugch3ck/SharpEfsPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/TokenImpersonation/SharpEfsPotato.exe |
+|| [PrintSpoofer](https://github.com/itm4n/PrintSpoofer) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Token/PrintSpoofer64.exe |
+|| [NetworkServiceExploit](https://github.com/decoder-it/NetworkServiceExploit) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Token/NetworkServiceExploit.exe |
+|| [GodPotato](https://github.com/BeichenDream/GodPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Token/GodPotato.exe |
+|| [JuicyPotato](https://github.com/ohpe/juicy-potato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Token/JuicyPotato.exe |
+|★| [SharpEfsPotato](https://github.com/bugch3ck/SharpEfsPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Token/SharpEfsPotato.exe |
 
 ### GPO Abuse
 
