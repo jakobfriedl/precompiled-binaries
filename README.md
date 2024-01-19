@@ -44,6 +44,7 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 | | [ADFSDump](https://github.com/mandiant/ADFSDump) | Dump information from ADFS to be used with ADFSpoof | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/ADFSDump.exe | 
 |★| [SharpSCCM](https://github.com/Mayyhem/SharpSCCM) | Interaction with SCCM for lateral movement | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SharpSCCM.exe
 || [SpoolSample](https://github.com/leechristensen/SpoolSample) | Coerce Authentication for Unconstrained Delegation | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SpoolSample.exe
+|| [RunasCS](https://github.com/antonioCoco/RunasCs) | C# Implementation of the runas command for lateral movement with valid credentials  | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/RunasCs.exe
 
 ### Credential Gathering
 
