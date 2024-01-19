@@ -88,6 +88,7 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 || Name | Description | Download | 
 |---| --- | --- | --- |
 || [ADSyncDecrypt](https://github.com/dirkjanm/adconnectdump) | Extract and decrypt Azure AD credentials | https://github.com/jakobfriedl/precompiled-binaries/raw/main/AzureAD/ADSyncDecrypt.exe |
+|★| [AzureAD_Decrypt_MSOL](https://gist.github.com/xpn/f12b145dba16c2eebdd1c6829267b90c) | Dump and extract Azure AD credentials |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/AzureAD_Decrypt_MSOL.ps1 |
 
 ### Scripts
 || Name | Description | Download | 
