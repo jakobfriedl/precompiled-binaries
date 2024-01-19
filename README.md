@@ -15,8 +15,6 @@ Collection of useful tools, scripts and pre-compiled binaries for enumerating an
     - [Certificate Abuse](#certificate-abuse)
     - [Scripts](#scripts)
 
-
-
 ## Disclaimer
 
 ONLY use for ethical purposes and against targets that you are permitted to attack!
@@ -43,8 +41,9 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 | | [Whisker](https://github.com/eladshamir/Whisker) |  Shadow Credential attacks | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/Whisker.exe |
 | | [ADFSDump](https://github.com/mandiant/ADFSDump) | Dump information from ADFS to be used with ADFSpoof | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/ADFSDump.exe | 
 |★| [SharpSCCM](https://github.com/Mayyhem/SharpSCCM) | Interaction with SCCM for lateral movement | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SharpSCCM.exe
-|| [SpoolSample](https://github.com/leechristensen/SpoolSample) | Coerce Authentication for Unconstrained Delegation | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SpoolSample.exe
-|| [RunasCS](https://github.com/antonioCoco/RunasCs) | C# Implementation of the runas command for lateral movement with valid credentials  | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/RunasCs.exe
+|| [SpoolSample](https://github.com/leechristensen/SpoolSample) | Coerce Authentication for Unconstrained Delegation | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SpoolSample.exe | 
+|★| [RunasCS](https://github.com/antonioCoco/RunasCs) | C# Implementation of the runas command for lateral movement with valid credentials (not stealthy)  | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/RunasCs.exe | 
+|| [ADModule](https://github.com/samratashok/ADModule) | Microsoft Signed DLL for importing the AD Module | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/ADModule.dll | 
 
 ### Credential Gathering
 
