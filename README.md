@@ -46,6 +46,8 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 |★| [RunasCS](https://github.com/antonioCoco/RunasCs) | C# Implementation of the runas command for lateral movement with valid credentials (not stealthy)  | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/RunasCs.exe | 
 || [ADModule](https://github.com/samratashok/ADModule) | Microsoft Signed DLL for importing the AD Module | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/ADModule.dll | 
 || [SharpRDP](https://github.com/0xthirteen/SharpRDP) | CLI-based lateral movement with RDP | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SharpRDP.exe | 
+|| [SharpSQL](https://github.com/mlcsec/SharpSQL) | C# Port of PowerUpSQL.ps1 for SQL Server Exploitation | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SharpSQL.exe | 
+
 
 ### Credential Gathering
 
