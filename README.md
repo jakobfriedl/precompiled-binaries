@@ -44,6 +44,7 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 || [SpoolSample](https://github.com/leechristensen/SpoolSample) | Coerce Authentication for Unconstrained Delegation | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SpoolSample.exe | 
 |★| [RunasCS](https://github.com/antonioCoco/RunasCs) | C# Implementation of the runas command for lateral movement with valid credentials (not stealthy)  | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/RunasCs.exe | 
 || [ADModule](https://github.com/samratashok/ADModule) | Microsoft Signed DLL for importing the AD Module | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/ADModule.dll | 
+|| [SharpRDP](https://github.com/0xthirteen/SharpRDP) | CLI-based lateral movement with RDP | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SharpRDP.exe | 
 
 ### Credential Gathering
 
@@ -97,3 +98,4 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 || [Inveigh](https://github.com/Kevin-Robertson/Inveigh) | MitM Attacks & Spoofing |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/Inveigh.ps1 |
 || [PowerUp](https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) | Windows Privilege Escalation |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/PowerUp.ps1 |
 || [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL) | SQL Server Enumeration and Exploitation |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/PowerUpSQL.ps1 |
+|| [LAPSToolkit](https://github.com/leoloobeek/LAPSToolkit) | LAPS Password dumping |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/LAPSToolkit.ps1 |
