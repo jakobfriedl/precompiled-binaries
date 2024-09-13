@@ -72,6 +72,7 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 || [GodPotato](https://github.com/BeichenDream/GodPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Token/GodPotato.exe |
 || [JuicyPotato](https://github.com/ohpe/juicy-potato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Token/JuicyPotato.exe |
 |★| [SharpEfsPotato](https://github.com/bugch3ck/SharpEfsPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Token/SharpEfsPotato.exe |
+|| [KrbRelayUp](https://github.com/jakobfriedl/precompiled-binaries/raw/main/KrbRelayUp.exe) | Universal Local Privilege Escalation in Domains where LDAP signing is not enforced | https://github.com/jakobfriedl/precompiled-binaries/raw/main/KrbRelayUp.exe |
 
 ### GPO Abuse
 
