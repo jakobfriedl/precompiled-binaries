@@ -8,18 +8,16 @@ Collection of useful tools, scripts and pre-compiled binaries for enumerating an
   - [Disclaimer](#disclaimer)
   - [Contents](#contents)
     - [Enumeration](#enumeration)
-    - [Active Directory Exploitation](#active-directory-exploitation)
+    - [Lateral Movement](#lateral-movement)
     - [Credential Gathering](#credential-gathering)
-    - [Local Privilege Escalation](#local-privilege-escalation)
-    - [GPO Abuse](#gpo-abuse)
-    - [Certificate Abuse](#certificate-abuse)
+    - [Privilege Escalation](#privilege-escalation)
     - [Scripts](#scripts)
     - [Custom](#custom)
 
 ## Disclaimer
 
-ONLY use for ethical purposes and against targets that you are permitted to attack!
-
+> [!CAUTION]
+> ONLY use for ethical purposes and against targets that you are permitted to attack!
 
 ## Contents
 
@@ -34,21 +32,43 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 || [SharpView](https://github.com/tevora-threat/SharpView) | C# Port of PowerView.ps1 | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/SharpView.exe |
 |★| [NoPowerShell](https://github.com/bitsadmin/nopowershell) | Execute PowerShell cmdlets in memory | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/NoPowerShell.exe
 
-### Active Directory Exploitation
+### Lateral Movement
 
 | | Name | Description | Download | 
 |---| --- | --- | --- |
-|★| [Rubeus](https://github.com/GhostPack/Rubeus) | Kerberos ticket attacks and abuse | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Rubeus.exe |
-| | [Whisker](https://github.com/eladshamir/Whisker) |  Shadow Credential attacks | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/Whisker.exe |
-| | [ADFSDump](https://github.com/mandiant/ADFSDump) | Dump information from ADFS to be used with ADFSpoof | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/ADFSDump.exe | 
-|★| [SharpSCCM](https://github.com/Mayyhem/SharpSCCM) | Interaction with SCCM for lateral movement | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SharpSCCM.exe
-|| [SpoolSample](https://github.com/leechristensen/SpoolSample) | Coerce Authentication for Unconstrained Delegation | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SpoolSample.exe | 
-|★| [RunasCS](https://github.com/antonioCoco/RunasCs) | C# Implementation of the runas command for lateral movement with valid credentials (not stealthy)  | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/RunasCs.exe | 
-|| [ADModule](https://github.com/samratashok/ADModule) | Microsoft Signed DLL for importing the AD Module | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/ADModule.dll | 
-|| [SharpRDP](https://github.com/0xthirteen/SharpRDP) | CLI-based lateral movement with RDP | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SharpRDP.exe | 
-|| [SharpSQL](https://github.com/mlcsec/SharpSQL) | C# Port of PowerUpSQL.ps1 for SQL Server Exploitation | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SharpSQL.exe | 
-|| [SharpMove](https://github.com/0xthirteen/SharpMove) | Lateral Movement with .NET | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SharpMove.exe
- | 
+|★| [Rubeus](https://github.com/GhostPack/Rubeus) | Kerberos ticket attacks and abuse | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/Rubeus.exe |
+| | [Whisker](https://github.com/eladshamir/Whisker) |  Shadow Credential attacks | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/Whisker.exe |
+| | [ADFSDump](https://github.com/mandiant/ADFSDump) | Dump information from ADFS to be used with ADFSpoof | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/ADFSDump.exe | 
+|★| [SharpSCCM](https://github.com/Mayyhem/SharpSCCM) | Interaction with SCCM for lateral movement | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/SharpSCCM.exe
+|| [SpoolSample](https://github.com/leechristensen/SpoolSample) | Coerce Authentication for Unconstrained Delegation | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/SpoolSample.exe | 
+|★| [RunasCS](https://github.com/antonioCoco/RunasCs) | C# Implementation of the runas command for lateral movement with valid credentials (not stealthy)  | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/RunasCs.exe | 
+|| [ADModule](https://github.com/samratashok/ADModule) | Microsoft Signed DLL for importing the AD Module | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/ADModule.dll | 
+|| [SharpRDP](https://github.com/0xthirteen/SharpRDP) | CLI-based lateral movement with RDP | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/SharpRDP.exe | 
+|| [SharpSQL](https://github.com/mlcsec/SharpSQL) | C# Port of PowerUpSQL.ps1 for SQL Server Exploitation | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/SharpSQL.exe | 
+|| [SharpMove](https://github.com/0xthirteen/SharpMove) | Lateral Movement with .NET | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/SharpMove.exe |
+
+#### GPO Abuse
+
+|| Name | Description | Download | 
+|---| --- | --- | --- |
+|| [SharpGPO](https://github.com/Dliv3/SharpGPO)  | Group Policy modification and editing | https://github.com/jakobfriedl/precompiled-binaries/blob/main/LateralMovement/GPOAbuse/SharpGPO.exe |
+|| [SharpGPOAbuse](https://github.com/FSecureLABS/SharpGPOAbuse) | Group Policy exploitation and abuse | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/GPOAbuse/SharpGPOAbuse.exe |
+
+#### Certificate Abuse
+
+|| Name | Description | Download | 
+|---| --- | --- | --- |
+|| [Certify](https://github.com/GhostPack/Certify) |  Certificate abuse and enumeration | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/CertificateAbuse/Certify.exe |
+|| [PassTheCert](https://github.com/AlmondOffSec/PassTheCert) | Certificate abuse | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/CertificateAbuse/PassTheCert.exe |
+|| [ForgeCert](https://github.com/GhostPack/ForgeCert) | Certificate forging | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/CertificateAbuse/ForgeCert.exe |
+
+####  Azure AD Abuse
+
+|| Name | Description | Download | 
+|---| --- | --- | --- |
+|| [ADSyncDecrypt](https://github.com/dirkjanm/adconnectdump) | Extract and decrypt Azure AD credentials | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/AzureAD/ADSyncDecrypt.exe |
+|★| [AzureAD_Decrypt_MSOL](https://gist.github.com/xpn/f12b145dba16c2eebdd1c6829267b90c) | Dump and extract Azure AD credentials |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/AzureAD/AzureAD_Decrypt_MSOL.ps1 |
+
 
 ### Credential Gathering
 
@@ -62,38 +82,16 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 || [BetterSafetyKatz](https://github.com/Flangvik/BetterSafetyKatz) | Run latest mimikatz in memory | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Credentials/BetterSafetyKatz.exe |
 || [GMSAPasswordReader](https://github.com/rvazarkar/GMSAPasswordReader) | Dump GMSA passwords | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Credentials/GMSAPasswordReader.exe | 
 
-
-### Local Privilege Escalation
+### Privilege Escalation
 
 || Name | Description | Download |
 |---| --- | --- | --- |
-|| [PrintSpoofer](https://github.com/itm4n/PrintSpoofer) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Token/PrintSpoofer64.exe |
-|| [NetworkServiceExploit](https://github.com/decoder-it/NetworkServiceExploit) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Token/NetworkServiceExploit.exe |
-|| [GodPotato](https://github.com/BeichenDream/GodPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Token/GodPotato.exe |
-|| [JuicyPotato](https://github.com/ohpe/juicy-potato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Token/JuicyPotato.exe |
-|★| [SharpEfsPotato](https://github.com/bugch3ck/SharpEfsPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Token/SharpEfsPotato.exe |
-|| [KrbRelayUp](https://github.com/jakobfriedl/precompiled-binaries/raw/main/KrbRelayUp.exe) | Universal Local Privilege Escalation in Domains where LDAP signing is not enforced | https://github.com/jakobfriedl/precompiled-binaries/raw/main/KrbRelayUp.exe |
-
-### GPO Abuse
-
-|| Name | Description | Download | 
-|---| --- | --- | --- |
-|| [SharpGPO](https://github.com/Dliv3/SharpGPO)  | Group Policy modification and editing | https://github.com/jakobfriedl/precompiled-binaries/blob/main/GPOAbuse/SharpGPO.exe |
-|| [SharpGPOAbuse](https://github.com/FSecureLABS/SharpGPOAbuse) | Group Policy exploitation and abuse | https://github.com/jakobfriedl/precompiled-binaries/raw/main/GPOAbuse/SharpGPOAbuse.exe |
-
-### Certificate Abuse
-
-|| Name | Description | Download | 
-|---| --- | --- | --- |
-|| [Certify](https://github.com/GhostPack/Certify) |  Certificate abuse and enumeration | https://github.com/jakobfriedl/precompiled-binaries/raw/main/CertificateAbuse/Certify.exe |
-|| [PassTheCert](https://github.com/AlmondOffSec/PassTheCert) | Certificate abuse | https://github.com/jakobfriedl/precompiled-binaries/raw/main/CertificateAbuse/PassTheCert.exe |
-|| [ForgeCert](https://github.com/GhostPack/ForgeCert) | Certificate forging | https://github.com/jakobfriedl/precompiled-binaries/raw/main/CertificateAbuse/ForgeCert.exe |
-
-### Azure AD Abuse
-|| Name | Description | Download | 
-|---| --- | --- | --- |
-|| [ADSyncDecrypt](https://github.com/dirkjanm/adconnectdump) | Extract and decrypt Azure AD credentials | https://github.com/jakobfriedl/precompiled-binaries/raw/main/AzureAD/ADSyncDecrypt.exe |
-|★| [AzureAD_Decrypt_MSOL](https://gist.github.com/xpn/f12b145dba16c2eebdd1c6829267b90c) | Dump and extract Azure AD credentials |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/AzureAD_Decrypt_MSOL.ps1 |
+|| [PrintSpoofer](https://github.com/itm4n/PrintSpoofer) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/Token/PrintSpoofer64.exe |
+|| [NetworkServiceExploit](https://github.com/decoder-it/NetworkServiceExploit) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/Token/NetworkServiceExploit.exe |
+|| [GodPotato](https://github.com/BeichenDream/GodPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/Token/GodPotato.exe |
+|| [JuicyPotato](https://github.com/ohpe/juicy-potato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/Token/JuicyPotato.exe |
+|★| [SharpEfsPotato](https://github.com/bugch3ck/SharpEfsPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/Token/SharpEfsPotato.exe |
+|| [KrbRelayUp](https://github.com/jakobfriedl/precompiled-binaries/raw/main/KrbRelayUp.exe) | Universal Local Privilege Escalation in Domains where LDAP signing is not enforced | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/KrbRelayUp.exe |
 
 ### Scripts
 || Name | Description | Download | 
@@ -106,7 +104,7 @@ ONLY use for ethical purposes and against targets that you are permitted to atta
 || [LAPSToolkit](https://github.com/leoloobeek/LAPSToolkit) | LAPS Password dumping |  https://github.com/jakobfriedl/precompiled-binaries/raw/main/Scripts/LAPSToolkit.ps1 |
 
 ### Custom 
-[SimpleBackdoorAdmin.dll](https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SimpleBackdoorAdmin.dll)
+[SimpleBackdoorAdmin.dll](https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/SimpleBackdoorAdmin.dll)
 
 ```c
 #include <stdlib.h>
@@ -135,7 +133,7 @@ LPVOID lpReserved ) // Reserved
 }
 ```
 
-[SimpleBackdoorAdmin.exe](https://github.com/jakobfriedl/precompiled-binaries/raw/main/Specific/SimpleBackdoorAdmin.exe)
+[SimpleBackdoorAdmin.exe](https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/SimpleBackdoorAdmin.exe)
 ```c
 #include <stdlib.h>
 
