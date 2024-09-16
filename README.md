@@ -46,6 +46,7 @@ Collection of useful tools, scripts and pre-compiled binaries for enumerating an
 || [SharpRDP](https://github.com/0xthirteen/SharpRDP) | CLI-based lateral movement with RDP | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/SharpRDP.exe | 
 || [SharpSQL](https://github.com/mlcsec/SharpSQL) | C# Port of PowerUpSQL.ps1 for SQL Server Exploitation | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/SharpSQL.exe | 
 || [SharpMove](https://github.com/0xthirteen/SharpMove) | Lateral Movement with .NET | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/SharpMove.exe |
+|| [Sharpmad](https://github.com/Kevin-Robertson/Sharpmad) | MachineAccountQuota and DNS Exploitation | https://github.com/jakobfriedl/precompiled-binaries/raw/main/LateralMovement/Sharpmad.exe |
 
 #### GPO Abuse
 
