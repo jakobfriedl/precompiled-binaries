@@ -91,7 +91,9 @@ Collection of useful tools, scripts and pre-compiled binaries for enumerating an
 || [GodPotato](https://github.com/BeichenDream/GodPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/Token/GodPotato.exe |
 || [JuicyPotato](https://github.com/ohpe/juicy-potato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/Token/JuicyPotato.exe |
 |★| [SharpEfsPotato](https://github.com/bugch3ck/SharpEfsPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/Token/SharpEfsPotato.exe |
-|| [KrbRelayUp](https://github.com/jakobfriedl/precompiled-binaries/raw/main/KrbRelayUp.exe) | Universal Local Privilege Escalation in Domains where LDAP signing is not enforced | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/KrbRelayUp.exe |
+|| [KrbRelay](https://github.com/Dec0ne/KrbRelayUp) | Universal Local Privilege Escalation in Domains where LDAP signing is not enforced | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/KrbRelayUp.exe |
+|| [KrbRelay](https://github.com/cube0x0/KrbRelay) | Privilege Escalation by relaying Kerberos from DCOM connection (Manual KrbRelayUp) | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/KrbRelay.exe |
+|| [CheckPort](https://github.com/cube0x0/KrbRelay) | C# tool that can be used to discover available ports for the OXID resolver (Used with KrbRelay) | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/CheckPort.exe |
 
 ### Scripts
 || Name | Description | Download | 
