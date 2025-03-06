@@ -25,7 +25,8 @@ Collection of useful tools, scripts and pre-compiled binaries for enumerating an
 
 | | Name | Description | Download |
 |---| --- | --- | --- |
-|★| [SharpHound](https://github.com/BloodHoundAD/SharpHound) | Active directory enumeration and visualization | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/SharpHound.exe |
+|★| [SharpHound](https://github.com/BloodHoundAD/SharpHound) (Legacy) | Active directory enumeration and visualization | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/SharpHound_Legacy.exe |
+|★| [SharpHound](https://github.com/SpecterOps/BloodHound) (Community Edition v2.3.2) | Active directory enumeration and visualization | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/SharpHound/SharpHound.exe <br> https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/SharpHound/SharpHound.ps1 |
 || [Seatbelt](https://github.com/GhostPack/Seatbelt) | Windows host enumeration | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/Seatbelt.exe |
 || [SharpUp](https://github.com/GhostPack/SharpUp) | Privilege Escalation Checks | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/SharpUp.exe |
 || [winPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS) | Windows host enumeration | https://github.com/jakobfriedl/precompiled-binaries/raw/main/Enumeration/winPEAS.exe | 
