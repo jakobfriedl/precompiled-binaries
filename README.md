@@ -3,12 +3,15 @@
 Collection of useful tools, scripts and pre-compiled binaries for enumerating and exploiting Active Directory environments or standalone Windows hosts. All binaries listed in this repository have either been downloaded from the official release page or compiled from the official source code using Visual Studio.
 
 ## Table of Contents
-- [Precompiled Binaries](#precompiled-binaries)
+- [Precompiled Binaries \& AD Toolset](#precompiled-binaries--ad-toolset)
   - [Table of Contents](#table-of-contents)
   - [Disclaimer](#disclaimer)
   - [Contents](#contents)
     - [Enumeration](#enumeration)
     - [Lateral Movement](#lateral-movement)
+      - [GPO Abuse](#gpo-abuse)
+      - [Certificate Abuse](#certificate-abuse)
+      - [Azure AD Abuse](#azure-ad-abuse)
     - [Credential Gathering](#credential-gathering)
     - [Privilege Escalation](#privilege-escalation)
     - [Scripts](#scripts)
@@ -92,6 +95,7 @@ Collection of useful tools, scripts and pre-compiled binaries for enumerating an
 || [NetworkServiceExploit](https://github.com/decoder-it/NetworkServiceExploit) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/Token/NetworkServiceExploit.exe |
 || [GodPotato](https://github.com/BeichenDream/GodPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/Token/GodPotato.exe |
 || [JuicyPotato](https://github.com/ohpe/juicy-potato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/Token/JuicyPotato.exe |
+|| [SigmaPotato](https://github.com/tylerdotrar/SigmaPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/Token/SigmaPotato.exe |
 |★| [SharpEfsPotato](https://github.com/bugch3ck/SharpEfsPotato) | Token Impersonation, SeImpersonatePrivilege | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/Token/SharpEfsPotato.exe |
 || [KrbRelayUp](https://github.com/Dec0ne/KrbRelayUp) | Universal Local Privilege Escalation in Domains where LDAP signing is not enforced | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/KrbRelayUp.exe |
 || [KrbRelay](https://github.com/cube0x0/KrbRelay) | Privilege Escalation by relaying Kerberos from DCOM connection (Manual alternative to KrbRelayUp) | https://github.com/jakobfriedl/precompiled-binaries/raw/main/PrivilegeEscalation/KrbRelay/KrbRelay.exe |
